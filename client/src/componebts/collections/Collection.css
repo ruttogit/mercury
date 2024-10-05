@@ -1,0 +1,33 @@
+.collection{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.collection h2{
+    margin-bottom: 2rem;
+}
+
+.collection-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.collection-cont{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 950px){
+    .collection{
+        
+    }
+}
