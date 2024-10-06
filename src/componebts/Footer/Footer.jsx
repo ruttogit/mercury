@@ -1,8 +1,7 @@
-// import logo from "../../icons/logoipsum-white.svg"
-import facebook from "../../icons/facebook.svg"
-import instagram from "../../icons/instagram.svg"
-import twitterX from "../../icons/x-twitter.svg"
-import discord from "../../icons/discord.svg"
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
 import "./Footer.css"
 
 
@@ -21,10 +20,10 @@ function Footer() {
                 </div>
             </div>
             <div className="social-icons">
-                <img src={discord} alt="" />
-                <img src={instagram} alt="" />
-                <a href="https://x.com/i/flow/login?redirect_after_login=%2FMercuryAbakala" target="_blank" rel="noopener noreferrer"><img src={twitterX} alt="" /></a>
-                <a href="https://www.facebook.com/upright.abakala" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" /></a>
+                <div className="icon"><a href="https://www.facebook.com/upright.abakala" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></div>
+                <div className="icon"><a href="https://x.com/i/flow/login?redirect_after_login=%2FMercuryAbakala" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></div>
+                <div className="icon"><a href=""><FaInstagram /></a></div>
+                <div className="icon"><a href="https://wa.me/254745667442" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a></div>
             </div> 
         </div>
         <div className="footer-center">
