@@ -127,7 +127,8 @@
 
     .social-icons{
         align-items: center;
-        margin-left: 30%;
+        /* margin-left: 30%; */
+        justify-content: center;
     }
 
     .footer-center, .footer-right{

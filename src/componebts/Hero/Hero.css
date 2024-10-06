@@ -17,18 +17,36 @@
     font-size: 50px;
     font-weight: 600;
     line-height: 65px;
+    transform: translateY(50px);
+    animation: fadeInUp 1.1s ease forwards;
 }
 
 .hero-left p{
     width: 75%;
+    animation: fadeInUp 1.4s ease forwards;
+     /* Delay for subtext */
 }
 
 .hero-btn{
     max-width: 150px;
+    transform: translateY(50px);
+    animation: fadeInUp 1.7s ease forwards;
 }
 
 .hero-right img{
     width: 700px;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at the normal position */
+    }
 }
 
 @media (max-width: 1300px){
