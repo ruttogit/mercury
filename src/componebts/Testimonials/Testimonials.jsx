@@ -1,6 +1,6 @@
 import arrowLeft from "../../images/arrow-left.png"
 import arrowRight from "../../images/arrow-right.png"
-// import pic from "../../images/me.jpg"
+
 
 
 import "./Testimonials.css"

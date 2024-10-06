@@ -22,7 +22,7 @@ function Footer() {
             <div className="social-icons">
                 <div className="icon"><a href="https://www.facebook.com/upright.abakala" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></div>
                 <div className="icon"><a href="https://x.com/i/flow/login?redirect_after_login=%2FMercuryAbakala" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a></div>
-                <div className="icon"><a href=""><FaInstagram /></a></div>
+                <div className="icon"><a href="#instagram"><FaInstagram /></a></div>
                 <div className="icon"><a href="https://wa.me/254745667442" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a></div>
             </div> 
         </div>
