@@ -59,7 +59,7 @@
     .hero{
         grid-template-columns: 1fr;
         padding: 1rem 2rem;
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 
     .hero-left{
